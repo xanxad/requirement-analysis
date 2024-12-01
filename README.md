@@ -51,3 +51,31 @@ Requirement Analysis is crucial to the success of any software development proje
 
 4. **Facilitates Better Resource Allocation**  
    With well-defined requirements, project managers can allocate resources, time, and budget more effectively. This leads to more efficient workflows and ensures that teams work on the right tasks at the right time.
+
+## Key Activities in Requirement Analysis
+
+Requirement Analysis involves several critical activities that help ensure the software development process is built on a solid foundation. Below are the five key activities:
+
+1. **Requirement Gathering**
+
+   - Collect input from stakeholders, end-users, and subject matter experts to identify the needs and objectives of the project.
+   - Use methods such as interviews, surveys, workshops, and focus groups to collect information.
+
+2. **Requirement Elicitation**
+
+   - Dig deeper into the needs gathered to understand the underlying goals and priorities.
+   - Resolve conflicts between stakeholder requirements and ensure alignment with the project’s scope.
+
+3. **Requirement Documentation**
+
+   - Record the requirements in a clear, structured, and detailed format, such as a Software Requirements Specification (SRS) document.
+   - Ensure documentation includes functional, non-functional, and technical requirements.
+
+4. **Requirement Analysis and Modeling**
+
+   - Analyze the gathered requirements to identify feasibility, conflicts, and dependencies.
+   - Use modeling techniques such as use case diagrams, flowcharts, or prototypes to visualize the system and its components.
+
+5. **Requirement Validation**
+   - Ensure the documented requirements accurately represent stakeholder needs.
+   - Use techniques like walkthroughs, peer reviews, and stakeholder approvals to validate and finalize requirements.
