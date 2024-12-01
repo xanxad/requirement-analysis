@@ -139,3 +139,48 @@ Below is the use case diagram for the booking management system:
   - **Cancel a Booking**: Users can cancel a previously made booking.
   - **Receive Notifications**: Users receive confirmation or cancellation updates via email.
   - **Manage Bookings**: Admin can view, approve, or modify bookings.
+
+## Acceptance Criteria
+
+### What are Acceptance Criteria?
+
+Acceptance Criteria are a set of well-defined conditions that a software product or a specific feature must satisfy to be considered complete and accepted by stakeholders. These criteria are critical for bridging the gap between user expectations and development outcomes.
+
+#### Importance of Acceptance Criteria in Requirement Analysis
+
+- **Aligns Understanding**: Ensures all stakeholders—clients, developers, and testers—are aligned on the definition of “done.”
+- **Facilitates Testing**: Provides a benchmark to validate the functionality and usability of a feature.
+- **Reduces Rework**: Clearly defined criteria prevent miscommunication and minimize the need for rework.
+- **Enhances Quality**: Guarantees that the delivered feature meets business requirements and user needs.
+
+#### Example: Acceptance Criteria for the Checkout Feature
+
+**Feature: Checkout**
+
+1. **Authentication and Authorization**
+
+   - Only authenticated users can proceed to checkout.
+   - Guests are prompted to log in or create an account before checking out.
+
+2. **Payment Processing**
+
+   - Multiple payment methods (credit card, PayPal, and mobile wallets) are supported.
+   - Payment transactions are processed securely through an external, PCI-compliant payment gateway.
+
+3. **Booking Confirmation**
+
+   - A confirmation page is displayed after successful payment, showing the booking details.
+   - An email containing booking information is sent to the user upon completion.
+
+4. **Error Handling**
+
+   - If payment fails, an error message explains the issue, and the user can retry or select another payment method.
+   - If room availability changes during the checkout process, the user is notified immediately and directed to update their booking details.
+
+5. **Validation**
+
+   - All required fields (e.g., guest name, check-in/check-out dates, and payment details) must be filled out before proceeding.
+   - The system verifies that the selected room is available before completing the booking.
+
+6. **Responsive Design**
+   - The checkout process must work seamlessly across desktop, tablet, and mobile devices.
